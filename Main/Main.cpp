@@ -26,13 +26,13 @@ int main()
         while (j > 0)
         {
             gotoxy(20, j);
-            //cout << "[" << a[j] << "]";
+            cout << "[" << a[j] << "]";
             if (a[j] == x)
             {
                 gotoxy(20, j);
                 a[j] = 0;
                 cout << "lock";
-                //system("pause");
+                system("pause");
                 break;
             }
             cout << "[" << a[j] << "]";
@@ -43,7 +43,7 @@ int main()
         cin >> u;
     return 0;
 }
-
+//Hello fuckyou
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
